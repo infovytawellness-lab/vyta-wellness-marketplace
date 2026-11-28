@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Center, Environment } from "@react-three/drei";
 import { HomeCameraRig } from "../camera/HomeCameraRig";
 import HomeBackdrop from "../backdrop/HomeBackdrop";
+import Shirt from "../models/Shirt";
 
 
 export const HomeCanvas = ({
@@ -23,6 +24,7 @@ export const HomeCanvas = ({
     <HomeCameraRig>
       <HomeBackdrop />
       <Center>
+        <Shirt />
       </Center>
     </HomeCameraRig>
   </Canvas>
